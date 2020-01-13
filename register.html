@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+    <a href="index.html">Home</a>
+    <!-- Comment -->
+    <form method="GET">
+        <label>Username: </label> <input type="text" name="username"><br>
+        <Label>Password:</Label>  <input type="password" name="password" min="6"><br>
+        <Label>Email:  </Label>  <input type="email" name="email" required><br>
+        <Label>DOB:</Label>      <input type="date" name="dob"><br>
+
+        <Label>Gender:   </Label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female<br>
+
+        <Label>Checkboxes:</Label>
+        <input type="checkbox" name="box1"> Box1
+        <input type="checkbox" name="box2"> Box2 <br>
+
+        <Label>Cars: </Label> <br>
+        <select name="cars">
+            <option value="Audi" name="audio">Audi</option>
+            <option value="BMW" name="bmw">BMW</option>
+        </select>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear all">
+    </form>
+</body>
+</html>
