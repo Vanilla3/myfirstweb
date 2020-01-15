@@ -10,6 +10,51 @@ div {
     font-weight: bold;
   }
 
+ 
+
+table.bombs {
+   
+    border-collapse: collapse;
+    width: 20%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+   /* margin: 0 auto; */
+   
+}
+
+table.bombs th{
+    background-color: darkgrey
+    
+} 
+
+table.bombs tr:nth-child(even) , th{
+    background-color: lightgrey
+    
+} 
+
+table.bombs td, table.bombs th{
+    /* border: 1px solid black; */
+     padding: 10px;
+}
+
+
+
+}
+
+table.bombs {
+    border-collapse: collapse;
+
+}
+
+table.bombs tr{
+    text-align: center;
+}
+
+div.container{
+    display: flex;
+}
+
 a {
     text-decoration: none;
     color:#ff7315;
@@ -27,6 +72,8 @@ p{
 h1,h2,h3{
     color: #232020;
 }
+
+
 
 hr {
     border-style: double;
@@ -69,4 +116,9 @@ hr.style14 {
     border-width: 5px;
     width: 5%;
 } */
+
+span{
+
+    font-style: bold;
+}
 
